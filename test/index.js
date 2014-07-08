@@ -58,7 +58,7 @@ test('regex', function (t) {
   t.test('should populate err with a invalid regex', function (st) {
     var resolver = makeResolver();
     resolver.resolve(invalidMock, function (err, result) {
-      st.equal(err && err.type, 'malformed_regexp', 'error should be a malformed regexp');
+      st.notEqual(err, undefined, 'error should be a malformed regexp');
       st.equal(result, undefined, 'result should be undefined');
       st.end();
     });
