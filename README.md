@@ -1,6 +1,7 @@
 # shortstop-regex
+[![Build Status](https://img.shields.io/travis/jasisk/shortstop-regex.svg?style=flat)](https://travis-ci.org/jasisk/shortstop-regex)
 
-Adds `RegExp` support to shortstop.
+Adds `RegExp` support to [shortstop](https://github.com/krakenjs/shortstop).
 
 ## Example
 ``` js
