@@ -1,0 +1,22 @@
+{
+  "name": "shortstop-regex",
+  "version": "0.0.1",
+  "description": "shortstop handler to support regular expressions",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "keywords": [
+    "shortstop",
+    "regex",
+    "regular-expression",
+    "shortstop-handler"
+  ],
+  "author": "Jean-Charles Sisk <jasisk@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "core-util-is": "^1.0.1",
+    "shortstop": "^1.0.1",
+    "tape": "^2.13.3"
+  }
+}
