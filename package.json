@@ -12,6 +12,7 @@
     "regular-expression",
     "shortstop-handler"
   ],
+  "repository": "git://github.com/jasisk/shortstop-regex.git",
   "author": "Jean-Charles Sisk <jasisk@gmail.com>",
   "license": "MIT",
   "devDependencies": {
